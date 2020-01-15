@@ -1,0 +1,351 @@
+* {
+  padding:0px;
+  margin: 0px;
+}
+.loginpage{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.logo{
+  margin-bottom: 30px;
+}
+.form-inner{
+  padding-bottom: 15px;
+    padding-top: 10px;
+}
+.navbar-me .navbar{
+    color: #fff !important;
+}
+.bg-cus {
+    background-color: #009764 !important;
+    color: #fff !important;
+}
+.bg-img{
+    height: 100vh;
+  background-image: url('../image/bg-woman.jpg');
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.white{
+  color: #fff;
+}
+.tempt{
+  padding: 5px;
+  background-color: yellow;
+  display: inline-block;
+  margin-top: 3px;
+  color: white;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+}
+.px-10{
+  font-size: 10px;
+  line-height: 20px;
+}
+.top{
+background-color: #035d3f;
+	color:#fff;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 15px;
+	padding: 5px;
+}
+.pxx{
+  padding-left: 70%;
+  /* padding-right: 20%; */
+  margin-left: 5%;
+  float: right;
+}
+.na{
+	border: 2px solid red;
+}
+.nan{
+	border: 2px solid blue;
+}
+.duvet {
+	background-color: #003312;
+	vertical-align: middle;
+	text-align: center;
+	color: #000;
+	margin-top: 10px;
+}
+
+.accordable ul li{
+color: #035d3f;
+}
+.accordable {
+  margin: 0;
+  padding: 0;
+}
+
+.accordable li:before {
+  content: '';
+  padding: 0;
+}
+
+.accordable .accordable-panel {
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.accordable .accordable-heading {
+  background-color: #035d3f;
+  color: #FFF;
+  padding: 10px 25px;
+}
+
+.container .accordable .accordable-expander {
+  padding: 0 25px;
+}
+
+.username{
+  height: 23px !important;
+    border-width: thin;
+    border-color:#009764;
+/*    width: 40% !important;*/
+}
+
+ select, textarea {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #003312;;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.reg{
+	margin-top: 7px;
+
+}
+.responsive{
+	width: 100%;
+
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40%;
+  text-align: center;
+}
+input{
+    border: 1px solid #035d3f!important;
+}
+footer{
+	padding: 50px;
+	background-color: #009764;
+	color: #fff;
+	text-align: center;
+}
+footer p:first-of-type{
+	text-transform: uppercase;
+
+}
+input[type=submit]:hover {
+  background-color: green;
+}
+
+.main{
+	margin-bottom: 30px;
+}
+
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.allowance{
+	  float: left;
+  width: 25%;
+  margin-top: 6px;
+
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.navbar-nav a {
+    color: #fff !important;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+span.navbar-toggler-icom{
+    color: #fff!important;
+}
+p a{
+    color: #009764;
+}
+.imge{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.hrr{
+border: 3px solid #009764;}
+
+a:hover {
+    color: red !important;
+    text-decoration:none!important;
+}
+/* .active{
+    color: #fff !important;
+    background: #035d3f;
+} */
+
+.main{
+	padding-top: 30px;
+}
+
+input{
+	width: 50%;
+	border-radius: 10px;
+	padding: 4px;
+	border: 1px solid #035d3f;
+}
+
+input[type=text]{
+	width: 70%;
+	border-radius: 10px;
+	padding: 4px;
+	border: 1px solid #035d3f;
+}
+input[type=checkbox]{
+	width: 5%;
+}
+
+.submission a{
+    color: #035d3f;
+    font-weight: bold;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .main{
+  	text-align: center;
+  }
+
+ input[type=text]{
+	width: 70%;
+
+}
+
+input{
+	width: 70%;
+	border-radius: 10px;
+	padding: 4px;
+}
+}
+
+svg#definition {
+  display: none;
+}
+
+.icon {
+  width: 0.5em;
+  height: 0.5em;
+  fill: red;
+  vertical-align: top;
+}
+
+.col-25:after { content:" *";
+    color: #e32;}
+
+.error{
+  color: red;
+}
+#banna {
+  position: absolute;
+  width: 90%;
+   left: 5%;
+   top: 27%;
+   bottom: 40%;
+   text-align: center;
+   /* z-index: 999; */
+   background: #fff;
+   padding-top:;
+   color: #009764;
+   opacity: 0.66;
+}
+#login{
+    height: 20px;
+    width: 20%;
+}
+#register{
+  border: 1px solid red;
+    border-width: thin;
+    border-radius: 30px;
+    width: 50%;
+}
+
+
+/* @media(max-width: 768px){
+    #banna{
+        width: 100px;
+        left: 0%;
+        position: static;
+
+ }
+}
+@media(max-width: 1080px){
+   #banna{
+       width:100%;
+       left:5%;
+}
+} */
+
+
+
+
+
+
+
+
+<div class="row loginpage ">
+        <div id="login" class="col-md-4" style="margin-bottom: 30px;">
+         <img src="image/unilag.png" height="52" class="ml-5 my-2">
+        </div>
+
+        <div class="col-md-8 text-center">
+          <div class="row mt-3">
+            <div class="col-md-5 form-inner" style="padding-bottom: 10px;padding-top: 0px;">
+                <form action="index.php" method="post">
+                  Username <input class="username" type="text" aria-label="Search" name="username">
+            </form></div>
+            <div class="col-md-7">
+                  Password <input class="username" type="password" name="password" style="margin-bottom:10px;">
+            <button type="submit" class="btn btn-success text-center pb-4" name="login" id="login">Login</button><br>
+
+             <div class="text-right ml-5">
+         <p class="text-center text-danger mt-2 ml-5" id="register"><a href="register.php" class="text-center"><i style="color:black;">New User? </i>  Register</a></p>
+            </div>
+          </div>
+  </div>
+  </div>
+     </div>
